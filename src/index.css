@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +11,182 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar Custom = IntroductionPage*/
+
+.navbar-custom {
+  background-color: #f9dc5c; /* Change this to the color you want */
+  margin: 1rem;
+  border-radius: 0.75rem;
+}
+
+img#logo {
+  width: 200px;
+}
+
+.navbar-link {
+  color: #000;
+  text-decoration: none;
+}
+
+#a-link:hover {
+  text-decoration: underline;
+}
+
+button.btn.dropdown-toggle {
+  background:#f9dc5c;
+}
+button.btn.dropdown-toggle:hover {
+  background:#b393b0;
+}
+
+.btn.contact-us {
+  background-color: #b393b0;
+}
+
+.btn-style:hover {
+  text-decoration: underline;
+}
+
+.nav-link:hover:not(#a-link), .btn-toggler:hover, .dropdown-toggle:hover {
+  font-size: 1.1em;
+  text-decoration: underline;
+  color: white;
+  background-color: #b393b0;
+  border-radius: 5%;
+  transition: background-color 0.5s ease-in-out, font-size 0.5s ease-out; 
+}
+
+/* Jumbotron Custom = IntroductionPage */
+.jumbotron {
+  position:relative;
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow:hidden;
+}
+
+.jumbotron .container {
+  position:relative;
+  background:rgba(223, 201, 201, 0.2);
+  padding: 2rem;
+  border-radius:1rem;
+}
+
+.jumbotron-background {
+  object-fit:cover;
+  font-family: 'object-fit: cover;';
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity:0.5;
+  animation: slideInRight 3s ease-in-out;
+}
+
+@keyframes slideInRight {
+0% {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+100% {
+  transform: translateX(0);
+  opacity: 1;
+}
+}
+
+img.blur {
+  filter: blur(4px);
+}
+
+img.blur-1 {
+  
+  filter: blur(4px);
+}
+
+.page-footer {
+  background-color: #f9dc5c;
+  margin: 1rem;
+}
+
+/* Form Custom = Sign In */
+
+.page-footer {
+  background-color:  #f9dc5c;
+  margin: 1rem;
+}
+
+/* .nav-link-custom:hover {
+  background-color: #ffffff;
+} */
+
+.btn:hover{
+  background-color: #b66eaf ;
+  color: white;
+}
+
+.btn-style:hover {
+background: #b393b0;
+}
+
+@media (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+img.card-img-top {
+  width: 100%;
+  height:200px;
+  object-fit: cover;
+}
+
+div.bg-card-custom {
+  background-color: #f9dc5c ;
+}
+
+/* Qul CSS */
+.custom-border-job {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.product-list-table th:nth-child(1) {
+  width: 60%;
+}
+
+.product-list-table th:nth-child(2),
+.product-list-table th:nth-child(3),
+.product-list-table th:nth-child(4) {
+  width: 10%;
+}
+
+.page-footer, .navbar {
+  background-color: #f9dc5c;
+  margin: 1rem;
+}
+
+.list-group-item:hover {
+  background-color: #b393b0;
+  color: white;
+}
+
+img#logo {
+  width: 200px;
+}
+
+.save-btn, .upload-btn, .apply-btn {
+  color: black;
+  background-color: #b393b0;
+}
+.save-btn:hover, .upload-btn:hover, .apply-btn:hover {
+  color: #fff;
+  background-color: #b66eaf;
+}
+
+.btn {
+  background-color: #b393b0;
+}
+
+/* .save-btn:hover {
+  color
+} */
